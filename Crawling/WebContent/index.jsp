@@ -4,9 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Main</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-
+	<button type="button" id="movieBtn">영화정보</button>
+	
+	<script type="text/javascript">
+		$("#movieBtn").click(function(){
+			location.href = "movie.jsp"
+		});
+	</script>
 </body>
 </html>
